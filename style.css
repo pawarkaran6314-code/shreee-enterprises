@@ -355,3 +355,23 @@ h1, h2, h3 {
     font-size: 14px;
   }
 }
+
+@media (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    .nav-btn {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .video-box video {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
