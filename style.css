@@ -20,15 +20,17 @@ h1, h2, h3 {
 }
 
 .site-container {
-    max-width: 1100px;
+    max-width: 1250px;
     margin: 0 auto;          /* CENTERS EVERYTHING */
     padding: 0 15px;         /* MOBILE SAFETY */
 }
 
 /* HERO SECTION */
 .hero {
-  height: 70vh;
+  height: 70vw;
+  width: 100%;
   background-image: url("images/background.jpg");
+  margin-right: calc(50% - 50vw);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -81,6 +83,9 @@ h1, h2, h3 {
 /* BUTTONS */
 .buttons {
   margin: 30px 0;
+  object-fit: cover;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 
 .nav-btn {
@@ -192,7 +197,7 @@ h1, h2, h3 {
 /* VIDEOS */
 .video-box video {
   width: 100%;
-  max-width: 360px;
+  max-width: 500px;
   margin: 15px auto;
   border-radius: 12px;
   display: block;
@@ -344,8 +349,12 @@ h1, h2, h3 {
 .footer {
   background: #1f1f1f;
   color: white;
-  padding: 40px 20px;
+  padding: 50px 20px;
   text-align: center;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+
+  border-top: 4px solid #8b5e3c;
 }
 
 .footer h3 {
